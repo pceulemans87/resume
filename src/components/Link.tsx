@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/link.css';
 
 interface LinkProps {
     children: React.ReactNode;
@@ -9,7 +10,12 @@ interface LinkProps {
 const Link = ( props: LinkProps ) => {
     const { children, target, url } = props;
     return(
-        <a href={ url } target={ target ?? '_blank' } rel='noopener noreferrer'>
+        <a 
+            className='link'
+            href={ url } 
+            target={ target ?? '_blank' } 
+            rel='noopener noreferrer'
+        >
             { children }
         </a>
     )

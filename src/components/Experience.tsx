@@ -27,7 +27,7 @@ const Experience = () => {
                     <div>
                         <div className='experience_title'>
                             <Link url='https://nl.kuehne-nagel.com'>
-                                <Typography variant='h5'>Keuhne + Nagel</Typography>
+                                <Typography variant='h5'>Kuehne & Nagel</Typography>
                             </Link>
                             <Typography variant='subtext'>2014 - 2015</Typography>
                         </div>

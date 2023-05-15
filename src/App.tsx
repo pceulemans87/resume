@@ -9,6 +9,7 @@ import Experience from './components/Experience';
 import Footer from './components/Footer';
 import Hobbies from './components/Hobbies';
 import Header from './components/Header';
+import Link from './components/Link';
 
 function App() {
 	const appRef = React.useRef<HTMLDivElement>(null);
@@ -34,7 +35,9 @@ function App() {
 									}
 									content={ () => appRef.current }
 									documentTitle='cv_pceulemans'
-								/>					
+								/>
+								
+								<Link url='https://github.com/pceulemans87/resume'>Git Repo</Link>			
 							</div>
 						</div>								
 

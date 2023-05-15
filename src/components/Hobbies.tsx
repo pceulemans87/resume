@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/hobbies.css';
 import Typography from './Typography';
 import Icon from './Icon';
-import { mdiCamera, mdiFileMusic, mdiFileVideo, mdiMusic, mdiMusicBox } from '@mdi/js';
+import { mdiCamera, mdiMusic, mdiMusicBox } from '@mdi/js';
 import AE from '../assets/ae.png';
 import AI from '../assets/ai.png';
 import PS from '../assets/ps.png';

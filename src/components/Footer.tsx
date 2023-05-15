@@ -1,4 +1,3 @@
-import React from 'react';
 import Card from './Card';
 import Typography from './Typography';
 import Icon from './Icon';

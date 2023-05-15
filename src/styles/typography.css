@@ -1,6 +1,6 @@
 .typography-h1 {
 	font-size: 32pt;
-    color: var(--subtitle);
+    color: var(--title);
 }
 
 .typography-h2 {
@@ -15,12 +15,12 @@
 
 .typography-h4 {
 	font-size: 20pt;
-    color: var(--subtitle);
+    color: var(--title);
 }
 
 .typography-h5 {
 	font-size: 12pt;
-    color: var(--subtitle);
+    color: var(--title);
 }
 
 .typography-p {
@@ -39,8 +39,9 @@
     margin: 0;
     line-height: 145%;
     font-family: var(--font-family);
+    transition: var(--transition) !important;
 }
 
 .typography span {
-    color: var(--subtitle);
+    color: var(--title);
 }

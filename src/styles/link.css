@@ -1,0 +1,13 @@
+.link {
+	color: var(--title);
+    transition: var(--transition);
+	font-size: 10pt;
+}
+
+.link:hover {
+	color: var(--subtext);
+}
+
+.link:hover .typography {
+	color: var(--subtext);
+}

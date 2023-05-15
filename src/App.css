@@ -3,7 +3,6 @@
 	background: var(--body-bg);
 	text-align: center;
 	min-height: 100vh;
-	width: 100%;
 	padding: 0;
 }
 
@@ -15,7 +14,6 @@
 	display: flex;
 	flex-direction: column;
 	padding: 0;
-	width: 100%;
 }
 
 .bg-wave {
@@ -26,7 +24,6 @@
 	background: url( './assets/wave.svg' );
 	background-repeat: no-repeat;
 	background-position: bottom;
-	width: 100%;
 	min-height: 100vh;
 	padding: 0;
 }
@@ -38,7 +35,6 @@
 	gap: 2em;
 	margin: 0 auto;
 	padding: 2em;
-	width: 100%;
 	max-width: calc(595px + 4em);
 	z-index: 1;
 }
@@ -58,44 +54,17 @@
 	gap: 2em;
 }
 
-.list {
-	display: flex;
-	flex-direction: column;
-}
-
-.list-item {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	list-style-type: none;
-}
-
-.list-item-title {
-	display: flex;
-	gap: 0.5em;
-	align-items: first baseline;
-}
-
 .print {
 	display: flex;
 	flex-direction: column;
 	align-self: flex-end;
+	gap: 0.5em;
 }
 
 .print-btn {
 	display: flex;
 	flex-grow: 1;
 	align-items: center;
-}
-
-a {
-	color: var(--subtitle);
-	transition: all .3s ease-in-out;
-	font-size: 10pt;
-}
-
-a:hover {
-	color: var(--subtext);
 }
 
 
