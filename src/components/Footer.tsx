@@ -1,13 +1,11 @@
-import Card from './Card';
-import Typography from './Typography';
-import Icon from './Icon';
+
+import { Card, Icon, Link, Typography } from '.';
 import '../styles/footer.css';
 import { mdiEmail, mdiLinkedin, mdiPhone } from '@mdi/js';
-import Link from './Link';
 
 const Footer = () => {
     return(
-        <div className='footer'>            
+        <footer className='footer'>            
             <Card>
                 <div className='footer-content'>
                     <div className='motivation'>
@@ -40,7 +38,7 @@ const Footer = () => {
                     </div>
                 </div>
             </Card>
-        </div>
+        </footer>
     )
 }
 

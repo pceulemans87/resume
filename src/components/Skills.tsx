@@ -1,6 +1,4 @@
-import Card from './Card';
-import Icon from './Icon';
-import Typography from './Typography';
+import { Card, Icon, Typography } from '.';
 import '../styles/skills.css';
 import { mdiLanguageCss3, mdiLanguageHtml5, mdiLanguageJavascript, mdiLanguageTypescript, mdiReact } from '@mdi/js';
 

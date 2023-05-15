@@ -1,13 +1,7 @@
-import React from 'react';
 import '../styles/hobbies.css';
-import Typography from './Typography';
-import Icon from './Icon';
 import { mdiCamera, mdiMusic, mdiMusicBox } from '@mdi/js';
-import AE from '../assets/ae.png';
-import AI from '../assets/ai.png';
-import PS from '../assets/ps.png';
-import PR from '../assets/pr.png';
-import Card from './Card';
+import { AfterEffects, Illustrator, Photoshop, Premiere } from '../assets';
+import { Card, Icon, Typography } from '.';
 
 const Hobbies = () => {
     return(
@@ -32,10 +26,10 @@ const Hobbies = () => {
                         
                         <li className='list-item'>
                             <div className='hobbies-img'>
-                                <img src={ PS } alt='adobe_photoshop' />
-                                <img src={ PR } alt='adobe_premiere' />
-                                <img src={ AE } alt='adobe_after_effects' />
-                                <img src={ AI } alt='adobe_illustrator' />
+                                <img src={ Photoshop } alt='adobe_photoshop' />
+                                <img src={ Premiere } alt='adobe_premiere' />
+                                <img src={ AfterEffects } alt='adobe_after_effects' />
+                                <img src={ Illustrator } alt='adobe_illustrator' />
                             </div>
                         </li>
                     </ul>

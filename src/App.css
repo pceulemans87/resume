@@ -57,7 +57,7 @@
 .print {
 	display: flex;
 	flex-direction: column;
-	align-self: flex-end;
+	align-self: center;
 	gap: 0.5em;
 }
 

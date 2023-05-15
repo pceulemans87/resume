@@ -2,15 +2,7 @@ import React from 'react';
 import './App.css';
 import { mdiGithub, mdiPrinter } from '@mdi/js'
 import ReactToPrint from 'react-to-print';
-import Button from './components/Button';
-import Details from './components/Details';
-import Skills from './components/Skills';
-import Experience from './components/Experience';
-import Footer from './components/Footer';
-import Hobbies from './components/Hobbies';
-import Header from './components/Header';
-import Link from './components/Link';
-import Icon from './components/Icon';
+import { Button, Details, Experience, Footer, Header, Hobbies, Icon, Link, Skills } from './components';
 
 function App() {
 	const appRef = React.useRef<HTMLDivElement>(null);
@@ -39,7 +31,9 @@ function App() {
 								/>
 								
 								<div className='git'>
-									<Link url='https://github.com/pceulemans87/resume'><Icon icon={ mdiGithub } /> Git Repo</Link>	
+									<Link url='https://github.com/pceulemans87/resume'>
+										<Icon icon={ mdiGithub } /> Git Repo
+									</Link>	
 								</div>		
 							</div>
 						</div>								

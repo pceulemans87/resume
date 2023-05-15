@@ -1,5 +1,4 @@
-import Card from './Card';
-import Typography from './Typography';
+import { Card, Typography } from '.';
 import '../styles/details.css';
 
 const Details = () => {
