@@ -9,6 +9,7 @@
 	display: flex;
 	flex-direction: column;
 	text-align: left;
+	min-width: max-content;
 }
 
 .hobbies-img {
@@ -23,11 +24,24 @@
 	width: 24px;
 }
 
-.hobbies .list-item {
+.list {
+	display: flex;
+	flex-direction: column;
+	list-style-type: none;
+}
+
+.list-item {
+	display: flex;
 	flex-direction: row;
 	align-items: center;
 	justify-content: flex-start;
 	gap: 0.5em;
+}
+
+.list-item-title {
+	display: flex;
+	gap: 0.5em;
+	align-items: first baseline;
 }
 
 @media screen and (max-width: 640px) {

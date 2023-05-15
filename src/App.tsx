@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { mdiPrinter } from '@mdi/js'
+import { mdiGithub, mdiPrinter } from '@mdi/js'
 import ReactToPrint from 'react-to-print';
 import Button from './components/Button';
 import Details from './components/Details';
@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 import Hobbies from './components/Hobbies';
 import Header from './components/Header';
 import Link from './components/Link';
+import Icon from './components/Icon';
 
 function App() {
 	const appRef = React.useRef<HTMLDivElement>(null);
@@ -37,7 +38,9 @@ function App() {
 									documentTitle='cv_pceulemans'
 								/>
 								
-								<Link url='https://github.com/pceulemans87/resume'>Git Repo</Link>			
+								<div className='git'>
+									<Link url='https://github.com/pceulemans87/resume'><Icon icon={ mdiGithub } /> Git Repo</Link>	
+								</div>		
 							</div>
 						</div>								
 

@@ -3,6 +3,7 @@ import Typography from './Typography';
 import Icon from './Icon';
 import '../styles/footer.css';
 import { mdiEmail, mdiLinkedin, mdiPhone } from '@mdi/js';
+import Link from './Link';
 
 const Footer = () => {
     return(
@@ -29,11 +30,11 @@ const Footer = () => {
                             </li>
                             <li className='list-item'>
                                 <Icon icon={ mdiEmail } />
-                                <a href='mailto:info@epicwebdev.nl'>pceulemans@gmail.com</a>
+                                <Link url='mailto:pceulemans@gmail.com'>pceulemans@gmail.com</Link>
                             </li>
                             <li className='list-item'>
                                 <Icon icon={ mdiLinkedin } /> 
-                                <a href='linkedin.com/in/paul-ceulemans-951481276'>Follow me on LinkedIn</a>
+                                <Link url='linkedin.com/in/paul-ceulemans-951481276'>Follow me on LinkedIn</Link>
                             </li>
                         </ul>
                     </div>
