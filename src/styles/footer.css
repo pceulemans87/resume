@@ -1,0 +1,47 @@
+.footer {
+    display: flex;
+    flex-grow: 1;
+}
+
+.footer-content {
+    display: flex;
+    gap: 1em;
+    justify-content: space-between;
+}
+
+.motivation {
+    text-align: left;
+}
+
+.contact {
+	border-left: var(--border-body);
+	padding-left: 1.5em;
+    text-align: left;
+}
+
+.contact .list-item {
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 0.5em;
+}
+
+@media screen and (max-width: 640px) {
+    .footer-content {
+        flex-direction: column;
+    }
+    
+	.contact {
+		border-top: var(--border-body);
+		border-left: none;
+		padding-top: 1em;
+		padding-left: 0;
+	}
+	
+	.contact .list-item {
+		flex-direction: row;
+		align-items: center;
+		justify-content: flex-start;
+		gap: 0.5em;
+	}
+}

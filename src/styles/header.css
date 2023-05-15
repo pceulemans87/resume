@@ -1,0 +1,56 @@
+.header {
+	display: flex;
+	flex-direction: row;
+	flex-grow: 1;
+	justify-content: center;
+	align-items: center;
+	gap: 2em;
+}
+
+.header-text {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+
+.logo {
+	position: relative;
+	width: 100px;
+	height: 100px;
+}
+
+.logo-img img {	
+	position: absolute;
+	top: 20px;
+	left: 20px;
+    animation: rotate linear 5s infinite;
+	z-index: 2;
+}
+
+.logo-ring img {
+	position: absolute;
+	top: 0;
+	left: 0;
+    animation: rotate-back linear 10s infinite;
+	z-index: 1;
+}
+
+@keyframes rotate {
+    to { transform: rotate(360deg) }
+}
+
+@keyframes rotate-back {
+    to { transform: rotate(-360deg) }
+}
+
+@media screen and (max-width: 640px) {
+    .header {
+        flex-direction: column;
+        gap: 0;
+    }
+
+	.header-text {
+		text-align: center;
+		align-items: center;
+	}
+}

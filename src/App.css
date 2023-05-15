@@ -1,0 +1,146 @@
+.App {
+	font-family: 'Open Sans', sans-serif;
+	background: var(--body-bg);
+	text-align: center;
+	min-height: 100vh;
+	width: 100%;
+	padding: 0;
+}
+
+.bg-image {
+	/* background: url('./assets/moonbg.png'); */
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	display: flex;
+	flex-direction: column;
+	padding: 0;
+	width: 100%;
+}
+
+.bg-wave {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: url( './assets/wave.svg' );
+	background-repeat: no-repeat;
+	background-position: bottom;
+	width: 100%;
+	min-height: 100vh;
+	padding: 0;
+}
+
+.content {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	gap: 2em;
+	margin: 0 auto;
+	padding: 2em;
+	width: 100%;
+	max-width: calc(595px + 4em);
+	z-index: 1;
+}
+
+.row {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	gap: 2em;
+}
+
+.col {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	gap: 2em;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+}
+
+.list-item {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	list-style-type: none;
+}
+
+.list-item-title {
+	display: flex;
+	gap: 0.5em;
+	align-items: first baseline;
+}
+
+.print {
+	display: flex;
+	flex-direction: column;
+	align-self: flex-end;
+}
+
+.print-btn {
+	display: flex;
+	flex-grow: 1;
+	align-items: center;
+}
+
+a {
+	color: var(--subtitle);
+	transition: all .3s ease-in-out;
+	font-size: 10pt;
+}
+
+a:hover {
+	color: var(--subtext);
+}
+
+
+
+@media screen and (max-width: 640px) {	
+	.container {
+		background-size: 200%;
+	}
+
+	.content {
+		flex-direction: column;
+		padding: 1em;
+	}
+	
+	.row {
+		flex-direction: column;
+		gap: 2em;
+	}
+
+	.print {
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+}
+
+@media print {
+	@page {
+		size: A4 portrait;
+	}
+
+	.print {
+		display: none;
+	}
+
+	.container {
+		background-size: 200%;
+	}
+
+	.header-content {
+		justify-content: center;
+		width: 100%;
+	}
+
+	.logo {
+		display: none;
+	}
+}

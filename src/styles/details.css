@@ -1,0 +1,14 @@
+.details {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.details-content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 1em;
+    text-align: left;
+    min-width: max-content;
+}

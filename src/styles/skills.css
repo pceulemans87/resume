@@ -1,0 +1,20 @@
+.skills {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.skills-content {
+    display: flex;
+    flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+    flex-grow: 1;
+    gap: 1em;
+}
+
+@media screen and (max-width: 640px) {
+    .skills-content {
+        flex-wrap: wrap;
+    }
+}

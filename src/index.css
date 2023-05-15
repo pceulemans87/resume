@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*, *::before, *::after {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	background: var(--body-bg);
+}
+
+:root {
+	--font-family: 'Open Sans', sans-serif;
+	--transition: all .3s ease;
+
+	--text: #dbedff;
+	--subtext: #a4d2fd;
+	--title: #80c1ff;
+	--subtitle: #a4d2fd;
+
+	--body-bg: radial-gradient(circle, #002242 35%, #001224 100%);
+	--button-bg: linear-gradient(180deg, #a4d2fd, #17436d );
+	--card-bg: linear-gradient(-45deg, #a4d2fd 0%, #17436d 75%, #a4d2fd 100%);
+
+	--border-body: 3px dotted #17436d;
+	--border-hover: 2px solid #a4d2fd;
+
+	--scroll-track: #00203d;
+	--scroll-button: #a4d2fd;
+}
+
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--scroll-track);
+	overflow: hidden;
+}
+
+::-webkit-scrollbar-thumb {
+	width: 8px;
+	height: 8px;
+	border-radius: 4px;
+	background-color: var(--scroll-button);
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,46 @@
+.typography-h1 {
+	font-size: 32pt;
+    color: var(--subtitle);
+}
+
+.typography-h2 {
+	font-size: 14pt;
+    color: var(--text);
+}
+
+.typography-h3 {
+	font-size: 12pt;
+    color: var(--text);
+}
+
+.typography-h4 {
+	font-size: 20pt;
+    color: var(--subtitle);
+}
+
+.typography-h5 {
+	font-size: 12pt;
+    color: var(--subtitle);
+}
+
+.typography-p {
+	font-size: 10pt;
+    color: var(--text);
+}
+
+.typography-subtext {
+    font-size: 9pt;
+    color: var(--subtext);
+}
+
+.typography {
+    gap: 0.5em;
+    padding: 0;
+    margin: 0;
+    line-height: 145%;
+    font-family: var(--font-family);
+}
+
+.typography span {
+    color: var(--subtitle);
+}
