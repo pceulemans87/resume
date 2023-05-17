@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../styles/link.css';
+import '../../styles/elements/link.css';
 
 interface LinkProps {
     children: React.ReactNode;

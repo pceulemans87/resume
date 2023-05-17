@@ -1,6 +1,6 @@
 
 import { Card, Icon, Link, Typography } from '.';
-import '../styles/footer.css';
+import '../styles/components/footer.css';
 import { mdiEmail, mdiLinkedin, mdiPhone } from '@mdi/js';
 
 const Footer = () => {

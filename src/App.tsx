@@ -2,20 +2,45 @@ import React from 'react';
 import './App.css';
 import { mdiGithub, mdiPrinter } from '@mdi/js'
 import ReactToPrint from 'react-to-print';
-import { Button, Details, Experience, Footer, Header, Hobbies, Icon, Link, Skills } from './components';
+import { Button, Details, Experience, Footer, Header, Hobbies, Icon, Link, Navbar, Skills } from './components';
+import Player from './features/player/Player';
 
 function App() {
 	const appRef = React.useRef<HTMLDivElement>(null);
 
 	React.useEffect(() => {
 
-	}, [appRef])
+	}, [appRef]);
+
+	const navbarItems = [
+		{
+			label: 'about',
+			url: '/about'
+		},
+		{
+			label: 'toolkit',
+			url: '/toolkit'
+		},
+		{
+			label: 'media',
+			url: '/media'
+		},
+		{
+			label: 'resume',
+			url: '/resume'
+		},
+		{
+			label: 'contact',
+			url: '/contact'
+		},
+	]
 
 	return (
 		<div className="App" ref={ appRef }>
 			<div className='bg-image'>
 				<div className="bg-wave">
-					<div className='content'>
+					<Navbar items={ navbarItems }/>
+					<div className='app-content'>
 						<div className='row'>
 							<Header />										
 
@@ -39,6 +64,7 @@ function App() {
 						</div>								
 
 						<div className='col'>
+							<Player />
 							<Skills />
 
 							<div className='row'>

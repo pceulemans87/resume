@@ -1,6 +1,6 @@
 
 import { Card, Link, Typography } from '.';
-import '../styles/experience.css';
+import '../styles/components/experience.css';
 
 const Experience = () => {
     return(

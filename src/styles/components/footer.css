@@ -14,7 +14,7 @@
 }
 
 .contact {
-	border-left: var(--border-body);
+	border-left: var(--border-dotted);
 	padding-left: 1.5em;
     text-align: left;
 }
@@ -32,7 +32,7 @@
     }
     
 	.contact {
-		border-top: var(--border-body);
+		border-top: var(--border-dotted);
 		border-left: none;
 		padding-top: 1em;
 		padding-left: 0;

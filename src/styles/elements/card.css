@@ -11,7 +11,7 @@
     left: -4px;
     right: -4px;
     bottom: -4px;
-    background: var(--card-bg);
+    background: var(--bg-card);
     z-index: -1;
     border-radius: 8px;
 }
@@ -23,7 +23,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: var(--card-bg);
+    background: var(--bg-card);
     z-index: -2;
     filter: blur(8px);
     border-radius: 8px;

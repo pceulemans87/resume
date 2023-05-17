@@ -1,6 +1,6 @@
 import { Typography } from '.';
 import { Logo, LogoRing } from '../assets';
-import '../styles/header.css';
+import '../styles/components/header.css';
 
 const Header = () => {
     return(

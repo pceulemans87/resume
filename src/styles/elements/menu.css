@@ -1,0 +1,32 @@
+.menu {
+    position: relative;
+    transition: var(--transition);
+}
+
+.menu_toggle {
+    cursor: pointer;
+}
+
+.menu_items {
+    position: absolute;
+    top: 3em;
+    display: flex;
+    flex-direction: column !important;
+    align-items: stretch;
+    padding: 8px;
+    background: rgba(0,0,0,0.5);
+    border-radius: 12px;
+    border: var(--border-body);
+    box-shadow: var(--shadow-8);
+    min-width: max-content;
+    z-index: 999;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    transition: var(--transition);
+}
+
+.menu_close {
+    position: absolute;
+    right: 0;
+    top: 0;
+}

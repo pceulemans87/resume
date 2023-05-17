@@ -1,0 +1,24 @@
+.menu_item {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu_item > a {
+    display: block;
+    padding: 0.5em 1em;
+    background: rgba(138, 190, 238, 0);
+    border: 1px solid rgba(138, 190, 238, 0);
+    border-radius: 4px;
+    color: var(--subtext);
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: var(--transition);
+    text-align: right;
+}
+
+.menu_item > a:hover {
+    color: var(--title);
+    background: rgba(138, 190, 238, 0.2);
+    border: 1px solid rgba(138, 190, 238, 0.5);
+}

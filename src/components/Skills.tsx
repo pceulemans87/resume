@@ -1,5 +1,5 @@
 import { Card, Icon, Typography } from '.';
-import '../styles/skills.css';
+import '../styles/components/skills.css';
 import { mdiLanguageCss3, mdiLanguageHtml5, mdiLanguageJavascript, mdiLanguageTypescript, mdiReact } from '@mdi/js';
 
 const Skills = () => {

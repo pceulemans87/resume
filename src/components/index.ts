@@ -2,7 +2,11 @@
 export { default as Button } from './elements/Button';
 export { default as Card } from './elements/Card';
 export { default as Icon } from './elements/Icon';
+export { default as IconButton } from './elements/IconButton';
 export { default as Link } from './elements/Link';
+export { default as Menu } from './elements/Menu';
+export { default as MenuItem } from './elements/MenuItem';
+export { default as Navbar } from './elements/Navbar';
 export { default as Typography } from './elements/Typography';
 
 // COMPONENTS

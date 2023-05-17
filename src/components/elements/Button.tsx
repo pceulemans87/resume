@@ -1,5 +1,5 @@
 import { Icon } from '..';
-import '../../styles/button.css';
+import '../../styles/elements/button.css';
 
 interface ButtonProps {
     label: string;

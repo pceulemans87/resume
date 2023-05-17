@@ -1,6 +1,6 @@
 .App {
 	font-family: 'Open Sans', sans-serif;
-	background: var(--body-bg);
+	background: var(--bg-body);
 	text-align: center;
 	min-height: 100vh;
 	padding: 0;
@@ -28,13 +28,13 @@
 	padding: 0;
 }
 
-.content {
+.app-content {
 	position: relative;
 	display: flex;
 	flex-direction: column;
 	gap: 2em;
 	margin: 0 auto;
-	padding: 2em;
+	padding: 4em 2em 2em 2em;
 	max-width: calc(595px + 4em);
 	z-index: 1;
 }

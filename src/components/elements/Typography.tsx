@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../styles/typography.css';
+import '../../styles/elements/typography.css';
 
 interface TypographyProps {
     children: React.ReactNode;

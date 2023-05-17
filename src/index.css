@@ -18,16 +18,36 @@ body {
 
 	--text: #dbedff;
 	--subtext: #a4d2fd;
-	--title: #8abeee;
+	--title: rgb(138, 190, 238);
 
-	--body-bg: radial-gradient(circle, #002242 35%, #001224 100%);
-	--button-bg: linear-gradient(180deg, #a4d2fd, #17436d );
-	--card-bg: linear-gradient(-45deg, #a4d2fd 0%, #17436d 75%, #a4d2fd 100%);
+	--bg-body: radial-gradient(circle, #002242 25%, #001224 100%);
+	--bg-button: linear-gradient(180deg, #a4d2fd, #17436d );	
+	--bg-card: linear-gradient(-45deg, #a4d2fd 0%, #17436d 75%, #a4d2fd 100%);
+	--bg-navbar: linear-gradient(#002242, #001224);
+	--bg-slider: linear-gradient(-90deg, #002242 25%, #001224 100%);
+	--bg-thumb: radial-gradient(circle, #a4d2fd, #17436d );
 
-	--border-body: 3px dotted #17436d;
+	--border-solid: 1px solid #17436d;
+	--border-solid-light: 1px solid var(--title);
+	--border-dotted: 3px dotted #17436d;
+	--border-navbar: 1px solid rgba(0,0,0,0.75);
+	--border-navbar-item: 1px solid #a4d2fd;
 
 	--scroll-track: #00203d;
 	--scroll-button: #a4d2fd;
+
+	
+	/* SHADOWS */
+	--shadow-1: 0 2px 2px rgba(0,0,0,0.2);
+	--shadow-2: 0 2px 4px rgba(0,0,0,0.19);
+	--shadow-3: 0 4px 8px rgba(0,0,0,0.18);
+	--shadow-4: 0 6px 12px rgba(0,0,0,0.17);
+	--shadow-5: 0 8px 16px rgba(0,0,0,0.16);
+	--shadow-6: 0 10px 20px rgba(0,0,0,0.15);
+	--shadow-7: 0 12px 24px rgba(0,0,0,0.14);
+	--shadow-8: 0 14px 24px rgba(0,0,0,0.13);
+	--shadow-9: 0 16px 32px rgba(0,0,0,0.12);
+	--shadow-10: 0 18px 36px rgba(0,0,0,0.1);
 }
 
 ::-webkit-scrollbar {

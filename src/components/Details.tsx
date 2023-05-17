@@ -1,5 +1,5 @@
 import { Card, Typography } from '.';
-import '../styles/details.css';
+import '../styles/components/details.css';
 
 const Details = () => {
     return(

@@ -1,4 +1,4 @@
-import '../styles/hobbies.css';
+import '../styles/components/hobbies.css';
 import { mdiCamera, mdiMusic, mdiMusicBox } from '@mdi/js';
 import { AfterEffects, Illustrator, Photoshop, Premiere } from '../assets';
 import { Card, Icon, Typography } from '.';

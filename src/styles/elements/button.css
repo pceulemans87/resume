@@ -14,7 +14,7 @@
     left: -2px;
     right: -2px;
     bottom: -2px;
-    background: var(--button-bg);
+    background: var(--bg-button);
     z-index: -1;
     border-radius: 4px;
 }
@@ -26,7 +26,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: var(--button-bg);
+    background: var(--bg-button);
     z-index: -2;
     filter: blur(4px);
     border-radius: 4px;
