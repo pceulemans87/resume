@@ -11,7 +11,11 @@ const IconButton = (props: IconButtonProps) => {
     const { icon, onClick, size } = props;
     return(
         <div className='icon-button' onClick={ onClick }>
-            <Icon icon={ icon } size={ size ?? 1 } />
+
+            <Icon 
+                icon={ icon } 
+                size={ size ?? 1 } 
+            />
         </div>
     )
 }

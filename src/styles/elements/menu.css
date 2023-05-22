@@ -14,7 +14,7 @@
     flex-direction: column !important;
     align-items: stretch;
     padding: 8px;
-    background: rgba(0,0,0,0.5);
+    background: var(--transparent-bg-menu);
     border-radius: 12px;
     border: var(--border-body);
     box-shadow: var(--shadow-8);

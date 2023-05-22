@@ -1,9 +1,10 @@
 import { Icon as IconSVG } from '@mdi/react';
+import { ColorTypes } from '../../types/ColorTypes';
 
 interface IconProps {
     icon: string;
     size?: number;
-    color?: 'text' | 'subtext' | 'title';
+    color?: ColorTypes;
 }
 
 

@@ -5,24 +5,24 @@ interface OutsideAlerterProps {
     handleClose: () => void;
 }
 
-const OutsideAlerter = (props: OutsideAlerterProps) => {
+const OutsideAlerter = ( props: OutsideAlerterProps ) => {
     const { children, handleClose } = props;
     const outsideRef = React.useRef<HTMLDivElement>(null);
 
-    function useOutsideAlerter(ref: React.RefObject<HTMLDivElement>) {
+    function useOutsideAlerter( ref: React.RefObject<HTMLDivElement> ) {
         React.useEffect(() => {
-            function handleClickOutside(event: any) {
-                if (ref.current && !ref.current.contains(event.target)) {
+            function handleClickOutside( event: any ) {
+                if( ref.current && !ref.current.contains( event.target )) {
                     handleClose();
                 }
             }
 
-            document.addEventListener("mousedown", handleClickOutside);
+            document.addEventListener( "mousedown", handleClickOutside );
 
             return () => {
-                document.removeEventListener("mousedown", handleClickOutside);
+                document.removeEventListener( "mousedown", handleClickOutside );
             };
-        }, [ref]);
+        }, [ ref ]);
     }
 
     useOutsideAlerter( outsideRef );

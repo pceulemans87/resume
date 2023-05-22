@@ -18,14 +18,66 @@ body {
 
 	--text: #dbedff;
 	--subtext: #a4d2fd;
-	--title: rgb(138, 190, 238);
+	--title: rgb(138, 190, 238);/* Text Colors */
 
+	--text-body: rgba(255,255,255,0.75);
+	--text-primary: #0277bd;
+	--text-secondary: rgba(0,0,0,0.5);
+	--text-error: #f44336;
+	--text-warning: #f57f17;
+	--text-success: #33691e;
+	--text-disabled: #bdbdbd;
+	--text-passive: rgba(0,0,0,0.25);
+	--text-tooltip: rgba(255,255,255,0.75);
+
+	/* Borders */
+	--border-body: 1px solid rgba(0,0,0,0.2);
+	--border-paper: 1px solid rgba(0,0,0,0.3);
+	--border-primary: 1px solid #0277bd;
+	--border-secondary: 1px solid rgba(0,0,0,0.5);
+	--border-error: 1px solid #f44336;
+	--border-warning: 1px solid #f57f17;
+	--border-success: 1px solid #33691e;
+	--border-tooltip: 1px solid rgba(0,0,0,0.9);
+
+	/* BACKGROUND ELEMENTS */
 	--bg-body: radial-gradient(circle, #002242 25%, #001224 100%);
 	--bg-button: linear-gradient(180deg, #a4d2fd, #17436d );	
 	--bg-card: linear-gradient(-45deg, #a4d2fd 0%, #17436d 75%, #a4d2fd 100%);
 	--bg-navbar: linear-gradient(#002242, #001224);
 	--bg-slider: linear-gradient(-90deg, #002242 25%, #001224 100%);
 	--bg-thumb: radial-gradient(circle, #a4d2fd, #17436d );
+
+	
+	/* BACKGROUND STATUS */
+	--solid-bg-body: #001224;
+	--solid-bg-primary: #bbdefb;
+	--solid-bg-secondary: #e0e0e0;
+	--solid-bg-error: #ffcdd2;
+	--solid-bg-warning: #ffe0b2;
+	--solid-bg-success: #dcedc8;
+	--solid-bg-disabled: #eeeeee;
+	--solid-bg-tooltip: #000;
+
+	--gradient-bg-body: linear-gradient(to top, #bdbdbd, #f5f5f5);
+	--gradient-bg-primary: linear-gradient(to top, #64b5f6, #e3f2fd);
+	--gradient-bg-secondary: linear-gradient(to top, #bdbdbd, #f5f5f5);
+	--gradient-bg-error: linear-gradient(to top, #ef9a9a, #ffebee);
+	--gradient-bg-warning: linear-gradient(to top, #ffcc80, #fff3e0);
+	--gradient-bg-success: linear-gradient(to top, #aed581, #f1f8e9);
+	--gradient-bg-disabled: linear-gradient(to top, #eeeeee, #fafafa);
+
+	--transparent-bg-body: rgba(0,0,0,0.75);
+	--transparent-bg-primary: rgba(187, 222, 251, 0.75);
+	--transparent-bg-secondary: rgba(224, 224, 224, 0.75);
+	--transparent-bg-error: rgba(255, 205, 210, 0.75);
+	--transparent-bg-warning: rgba(255, 224, 178, 0.75);
+	--transparent-bg-success: rgba(220, 237, 200, 0.75);
+	--transparent-bg-disabled: rgba(238, 238, 238, 0.75);
+	--transparent-bg-menu: rgba(0, 0, 0, 0.75);
+	--transparent-bg-input: rgba(255,255,255, 0.75);
+	--transparent-bg-tooltip: rgba(0,0,0,0.75);
+
 
 	--border-solid: 1px solid #17436d;
 	--border-solid-light: 1px solid var(--title);
@@ -38,16 +90,16 @@ body {
 
 	
 	/* SHADOWS */
-	--shadow-1: 0 2px 2px rgba(0,0,0,0.2);
-	--shadow-2: 0 2px 4px rgba(0,0,0,0.19);
-	--shadow-3: 0 4px 8px rgba(0,0,0,0.18);
-	--shadow-4: 0 6px 12px rgba(0,0,0,0.17);
-	--shadow-5: 0 8px 16px rgba(0,0,0,0.16);
-	--shadow-6: 0 10px 20px rgba(0,0,0,0.15);
-	--shadow-7: 0 12px 24px rgba(0,0,0,0.14);
-	--shadow-8: 0 14px 24px rgba(0,0,0,0.13);
-	--shadow-9: 0 16px 32px rgba(0,0,0,0.12);
-	--shadow-10: 0 18px 36px rgba(0,0,0,0.1);
+	--shadow-1: 0 2px 2px rgba(0,0,0,0.5);
+	--shadow-2: 0 2px 4px rgba(0,0,0,0.45);
+	--shadow-3: 0 4px 8px rgba(0,0,0,0.4);
+	--shadow-4: 0 6px 12px rgba(0,0,0,0.35);
+	--shadow-5: 0 8px 16px rgba(0,0,0,0.3);
+	--shadow-6: 0 10px 20px rgba(0,0,0,0.2.5);
+	--shadow-7: 0 12px 24px rgba(0,0,0,0.2);
+	--shadow-8: 0 14px 24px rgba(0,0,0,0.15);
+	--shadow-9: 0 16px 32px rgba(0,0,0,0.1);
+	--shadow-10: 0 18px 36px rgba(0,0,0,0.05);
 }
 
 ::-webkit-scrollbar {
